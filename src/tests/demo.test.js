@@ -6,6 +6,6 @@ describe("Pruebas en el archivo demo.test.js", () => {
     //   2. estimulo
     const mensaje2 = `hola mundo`;
     //   3. Observar el compartamiento , toBe es lo que espero expect es lo que se envia
-    expect(mensaje).toBe(mensaje2);
+    expect(mensaje2).toBe(mensaje);
   });
 });
