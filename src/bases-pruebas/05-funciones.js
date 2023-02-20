@@ -18,7 +18,7 @@ export const getUser = () => ({
 });
 
 // Tarea
-const getUsuarioActivo = (nombre) => ({
+export const getUsuarioActivo = (nombre) => ({
   uid: "ABC567",
   username: nombre,
 });
